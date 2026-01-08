@@ -112,9 +112,10 @@ const portfolioData = {
   phone: "+92 313 7584180",
   linkedin: "linkedin.com/in/muhammad-maaz-aleem-b16b1028b",
   github: "github.com/MuhammadMaazAleem",
+  portfolio: "muhammadmaazaleem.github.io",
   profileImage: "/profile.png",
   
-  summary: "Passionate Full-Stack Developer with 1.5 years of hands-on experience building modern, scalable, and secure web applications. Strong expertise in MERN stack, backend development, and growing specialization in Blockchain & Web3 technologies. Proven ability to transform ideas into high-quality digital products using clean, maintainable code and industry best practices.",
+summary: `Full Stack Developer| Building Intelligent Web Solutions. I'm a MERN stack developer with a passion for artificial intelligence, specializing in creating dynamic, scalable web applications enhanced by cutting-edge AI capabilities. I bridge the gap between robust full-stack development and intelligent automation, crafting solutions that are not just functional—but smart. My expertise spans the complete development lifecycle: architecting RESTful APIs with Node.js and Express, building responsive interfaces with React, managing complex data with MongoDB, and integrating machine learning models to deliver personalized, data-driven user experiences. From real-time applications to AI-powered features like natural language processing, predictive analytics, and recommendation systems, I transform ambitious ideas into production-ready products. Whether it's developing an intelligent chatbot, building a recommendation engine, or creating seamless full-stack applications, I combine modern web technologies with AI innovation to solve real-world problems. I'm driven by the challenge of making technology more intuitive, accessible, and impactful. Let's build something intelligent together.`,
   
   experience: {
     title: "Full Stack Developer",
