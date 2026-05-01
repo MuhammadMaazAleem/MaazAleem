@@ -1,0 +1,39 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1600" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A365D" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#1A365D" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#grid)"/>
+  <rect width="1600" height="1200" fill="url(#glow)"/>
+
+  <g stroke="#1A365D" stroke-opacity="0.18" stroke-width="2">
+    <path d="M120 220H410L520 330H870"/>
+    <path d="M980 180H1310L1450 320"/>
+    <path d="M210 760H500L640 620H970L1100 510H1390"/>
+    <path d="M110 1020H360L460 920H800"/>
+  </g>
+
+  <g fill="#C9A227" fill-opacity="0.25">
+    <circle cx="120" cy="220" r="6"/>
+    <circle cx="410" cy="220" r="6"/>
+    <circle cx="520" cy="330" r="6"/>
+    <circle cx="870" cy="330" r="6"/>
+    <circle cx="980" cy="180" r="6"/>
+    <circle cx="1310" cy="180" r="6"/>
+    <circle cx="1450" cy="320" r="6"/>
+    <circle cx="210" cy="760" r="6"/>
+    <circle cx="640" cy="620" r="6"/>
+    <circle cx="970" cy="620" r="6"/>
+    <circle cx="1100" cy="510" r="6"/>
+    <circle cx="1390" cy="510" r="6"/>
+    <circle cx="110" cy="1020" r="6"/>
+    <circle cx="460" cy="920" r="6"/>
+    <circle cx="800" cy="920" r="6"/>
+  </g>
+</svg>

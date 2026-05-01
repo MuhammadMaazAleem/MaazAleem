@@ -106,7 +106,7 @@ const Icons = {
 
 const portfolioData = {
   name: "Muhammad Maaz Aleem",
-  title: "Full Stack Developer (MERN / Web3)",
+  title: "AI-Focused Full Stack Developer | Building Smart Web Products",
   location: "Islamabad, Pakistan",
   email: "muhammadmaazaleem@gmail.com",
   phone: "+92 313 7584180",
@@ -115,7 +115,7 @@ const portfolioData = {
   portfolio: "muhammadmaazaleem.github.io",
   profileImage: "/profile.png",
   
-summary: `Full Stack Developer| Building Intelligent Web Solutions. I'm a MERN stack developer with a passion for artificial intelligence, specializing in creating dynamic, scalable web applications enhanced by cutting-edge AI capabilities. I bridge the gap between robust full-stack development and intelligent automation, crafting solutions that are not just functional—but smart. My expertise spans the complete development lifecycle: architecting RESTful APIs with Node.js and Express, building responsive interfaces with React, managing complex data with MongoDB, and integrating machine learning models to deliver personalized, data-driven user experiences. From real-time applications to AI-powered features like natural language processing, predictive analytics, and recommendation systems, I transform ambitious ideas into production-ready products. Whether it's developing an intelligent chatbot, building a recommendation engine, or creating seamless full-stack applications, I combine modern web technologies with AI innovation to solve real-world problems. I'm driven by the challenge of making technology more intuitive, accessible, and impactful. Let's build something intelligent together.`,
+summary: `I build AI-powered web experiences that feel modern, fast, and meaningful. With a strong MERN foundation, I design responsive interfaces, engineer reliable APIs, and integrate practical AI features like intelligent search, smart automation, and data-driven insights. My goal is simple: turn good products into smarter products.`,
   
   experience: {
     title: "Full Stack Developer",
@@ -133,62 +133,77 @@ summary: `Full Stack Developer| Building Intelligent Web Solutions. I'm a MERN s
   
   projects: [
     {
+      featured: false,
       title: "Hospital Management System",
       tech: ["Java"],
       description: "A comprehensive hospital management system for managing patient records, appointments, and medical staff.",
       github: "https://github.com/MuhammadMaazAleem/Hospital_managment_system"
     },
     {
+      featured: false,
       title: "Sports Shop E-Commerce",
       tech: ["JavaScript", "React", "Node.js"],
       description: "Full-featured sports equipment e-commerce platform with product catalog and shopping cart functionality.",
       github: "https://github.com/MuhammadMaazAleem/SportsShop"
     },
     {
+      featured: false,
       title: "SwatServe",
       tech: ["Dart", "Flutter"],
       description: "A mobile application built with Flutter for service management and delivery in the Swat region.",
       github: "https://github.com/MuhammadMaazAleem/SwatServe"
     },
     {
+      featured: false,
       title: "Car Rental Website",
       tech: ["JavaScript", "React", "Node.js"],
       description: "A modern car rental platform with booking system, vehicle management, and user authentication.",
       github: "https://github.com/MuhammadMaazAleem/car-rental-website"
     },
     {
+      featured: true,
       title: "E-Commerce Store",
       tech: ["Python", "Django", "PostgreSQL"],
+      impact: "Built a scalable backend and smooth checkout flow for real-world e-commerce use cases.",
       description: "Complete e-commerce platform with product management, shopping cart, and secure checkout. Scalable backend architecture.",
       github: "https://github.com/MuhammadMaazAleem/ecommerce-store"
     },
     {
+      featured: true,
       title: "Secure VPN Desktop Application",
       tech: ["React", "TypeScript", "Electron", "Vite"],
+      impact: "Delivered cross-platform desktop UX with secure connection-focused architecture.",
       description: "Modern cross-platform VPN desktop application with clean interface and secure connection protocols.",
       github: "https://github.com/MuhammadMaazAleem/secure-vpn-dekstop"
     },
     {
+      featured: true,
       title: "Crypto Staking Wallet",
       tech: ["React", "TypeScript", "Web3"],
+      impact: "Implemented secure wallet interaction patterns and responsive Web3 transaction flows.",
       description: "Cryptocurrency staking wallet with secure transaction management and responsive Web3 integration.",
       github: "https://github.com/MuhammadMaazAleem/stakewallet"
     },
     {
+      featured: true,
       title: "Blockchain DApp Frontend",
       tech: ["React", "Tailwind CSS", "Web3", "Vite"],
+      impact: "Connected frontend UI to smart contracts with a clean, intuitive user journey.",
       description: "Decentralized application frontend with smart contract integration and secure blockchain transactions.",
       github: "https://github.com/MuhammadMaazAleem/Blockchain-frontEnd"
     },
     {
+      featured: false,
       title: "Currency Converter",
       tech: ["JavaScript", "HTML", "CSS", "API"],
       description: "Real-time currency converter with external API integration, country flags, and live exchange rates.",
       github: "https://github.com/MuhammadMaazAleem/currency-converter"
     },
     {
+      featured: true,
       title: "Task Management System",
       tech: ["React", "Node.js", "MongoDB"],
+      impact: "Improved productivity workflow with real-time task updates and notification-ready structure.",
       description: "Task management web app with authentication, CRUD operations, real-time updates, and notification system.",
       github: "https://github.com/MuhammadMaazAleem"
     }
@@ -206,18 +221,59 @@ summary: `Full Stack Developer| Building Intelligent Web Solutions. I'm a MERN s
     frontend: ["React.js", "Tailwind CSS", "Three.js", "Flutter"],
     backend: ["Node.js", "Express.js", "Django"],
     databases: ["MongoDB", "PostgreSQL"],
+    ai: ["AI Fundamentals", "Machine Learning Basics", "Prompt Engineering", "Data Analysis", "Model Integration"],
     blockchain: ["Web3", "DApp Development", "Smart Contract Integration"],
     tools: ["Git", "GitHub", "Electron", "Vite", "REST APIs"]
   },
+
+  certifications: [
+    {
+      title: "DevelopersHub Intern Offer Letter",
+      issuer: "DevelopersHub",
+      date: "2026",
+      file: "/certificates/developershub-offer-letter.pdf"
+    },
+    {
+      title: "Python Certificate",
+      issuer: "Udemy",
+      date: "2026",
+      file: "/certificates/udemy-python-certificate.pdf"
+    },
+    {
+      title: "Certificate of Completion",
+      issuer: "Professional Training",
+      date: "2026",
+      file: "/certificates/certificate-1.pdf"
+    },
+    {
+      title: "Data Science Essentials with Python",
+      issuer: "Data Science Program",
+      date: "2026",
+      file: "/certificates/datascience-essentials-python.pdf"
+    },
+    {
+      title: "Data Science Essentials with Python",
+      issuer: "Students AU",
+      date: "2026",
+      file: "/certificates/datascience-essentials-python-au.pdf"
+    },
+    {
+      title: "Intro to Data Science",
+      issuer: "Data Science Program",
+      date: "2026",
+      file: "/certificates/intro-to-data-science.pdf"
+    }
+  ],
   
   languages: ["Urdu (Fluent)", "English (Professional)"],
   
   interests: [
+    "Artificial Intelligence and Advanced Technologies",
+    "Applied AI for Web Applications",
     "Blockchain & Web3 Development",
     "Full-Stack Engineering",
     "Secure & Scalable Systems",
-    "Emerging Web Technologies",
-    "Artificial Intelligence and Advanced Technologies"
+    "Emerging Web Technologies"
   ]
 }
 
@@ -230,6 +286,7 @@ function Navbar() {
     { href: "#skills", label: "Skills" },
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
+    { href: "#certifications", label: "Certifications" },
     { href: "#education", label: "Education" },
     { href: "#contact", label: "Contact" },
   ]
@@ -347,6 +404,7 @@ function About() {
 // Skills Section
 function Skills() {
   const skillCategories = [
+    { title: "AI & Data", icon: <Icons.Tools />, skills: portfolioData.skills.ai },
     { title: "Languages", icon: <Icons.Code />, skills: portfolioData.skills.languages },
     { title: "Frontend", icon: <Icons.Globe />, skills: portfolioData.skills.frontend },
     { title: "Backend", icon: <Icons.Server />, skills: portfolioData.skills.backend },
@@ -411,15 +469,22 @@ function Experience() {
 
 // Projects Section
 function Projects() {
+  const sortedProjects = [...portfolioData.projects].sort((a, b) => Number(b.featured) - Number(a.featured))
+
   return (
     <section className="projects" id="projects">
       <div className="container">
         <h2 className="section-title">Projects</h2>
+        <p className="projects-intro">
+          A selection of my practical work. More repositories are available on my GitHub profile.
+        </p>
         <div className="projects-grid">
-          {portfolioData.projects.map((project, index) => (
+          {sortedProjects.map((project, index) => (
             <div key={index} className="project-card">
               <div className="project-content">
+                {project.featured && <span className="project-badge">Featured</span>}
                 <h3 className="project-title">{project.title}</h3>
+                {project.impact && <p className="project-impact">{project.impact}</p>}
                 <p className="project-description">{project.description}</p>
                 <div className="project-tech">
                   {project.tech.map((tech) => (
@@ -438,6 +503,45 @@ function Projects() {
                 )}
               </div>
             </div>
+          ))}
+        </div>
+        <div className="projects-footer-link">
+          <a
+            href={`https://${portfolioData.github}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary"
+          >
+            See More on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+// Certifications Section
+function Certifications() {
+  return (
+    <section className="certifications" id="certifications">
+      <div className="container">
+        <h2 className="section-title">Certifications</h2>
+        <div className="certifications-grid">
+          {portfolioData.certifications.map((certificate, index) => (
+            <article key={`${certificate.title}-${index}`} className="certification-card">
+              <div className="certification-badge">Certificate</div>
+              <h3>{certificate.title}</h3>
+              <p>{certificate.issuer}</p>
+              <span>{certificate.date}</span>
+              <div className="certificate-actions">
+                <a href={certificate.file} target="_blank" rel="noopener noreferrer" className="project-link">
+                  View Certificate <Icons.Arrow />
+                </a>
+                <a href={certificate.file} download className="project-link">
+                  Download PDF <Icons.Arrow />
+                </a>
+              </div>
+            </article>
           ))}
         </div>
       </div>
@@ -552,6 +656,7 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
+      <Certifications />
       <Education />
       <Contact />
       <Footer />
